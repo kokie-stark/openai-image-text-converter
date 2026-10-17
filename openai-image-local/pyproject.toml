@@ -7,7 +7,9 @@ authors = [
     { name = "koki4", email = "koki.estark@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "openai>=3.33.0",
+]
 
 [project.scripts]
 openai-image-local = "openai_image_local:main"
